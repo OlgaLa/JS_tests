@@ -4,8 +4,13 @@
   "description": "create set of tests using JS",
   "main": "index.js",
   "scripts": {
-    "test": "protractor config.js"
+    "test": "protractor config.js",
+    "update-webdriver-manager": "node node_modules/protractor/bin/webdriver-manager update",
+    "start-webdriver-manager": "node node_modules/protractor/bin/webdriver-manager start"
   },
   "author": "olapanovich",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "protractor": "^5.2.0"
+  }
 }
