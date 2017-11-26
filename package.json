@@ -11,6 +11,12 @@
   "author": "olapanovich",
   "license": "ISC",
   "devDependencies": {
-    "protractor": "^5.2.0"
+    "protractor": "^5.2.0",
+    "protractor-cucumber-framework": "^4.1.1"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^3.1.0"
   }
 }
